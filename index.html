@@ -1,0 +1,112 @@
+<!-- Build a responsive dashboard page that adapts from mobile to tablet to desktop using media queries.
+
+Layout:
+
+Desktop (≥1200px):
+
+Sidebar: 250px width, full height.
+
+Main content: 800px width.
+
+Right panel: 250px width.
+
+Use flex or grid.
+
+Tablet (≥768px and <1200px):
+
+Sidebar moves to top navigation (height 60px).
+
+Main content: 600px width.
+
+Right panel hidden.
+
+Mobile (<768px):
+
+Single-column layout: Main content full width.
+
+
+
+Typography:
+
+Desktop: 18px headings, 14px text.
+
+Tablet: 16px headings, 12px text.
+
+Mobile: 14px headings, 10px text.
+
+Images:
+
+Cards images should scale to 200px max width.
+
+
+
+Buttons:
+
+Desktop: inline buttons, fixed width 120px.
+
+Mobile: full width
+
+Add hover effect on desktop only.
+
+Interactive Feature:
+
+Sidebar menu using CSS only (:checked )
+
+
+Grid of cards:
+
+Desktop: 4 cards per row (200px each).
+
+Tablet: 2 cards per row.
+
+Mobile: 1 card per row. -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="mq2.css">
+</head>
+<body>
+<label for="menu"> Menu</label>
+              <input type="checkbox" id="menu">
+      <div class="container">
+           <div class="sidebar">Sidebar</div>
+
+  <div class="main">
+             <h1>Dashboard</h1>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur officia quod, tenetur alias ipsa deserunt eveniet
+                   vitae excepturi nemo, sequi ex exercitationem in eaque aliquid nisi eum nihil similique praesentium soluta
+                    tempora deleniti labore! Animi delectus in magni alias quisquam exercitationem deserunt ut blanditiis, rem ullam dolores fuga cum,
+                     aut ad placeat rerum repudiandae debitis molestias cupiditate? Perferendis repellendus reprehenderit, cum officiis
+                   dolorem voluptatum corporis odit suscipit consectetur repellat, architecto nihil vel
+                    deserunt! Incidunt vero voluptate quo non quisquam blanditiis quod, magnam eum assumenda porro labore
+                     voluptatum magni amet! Doloremque eligendi pariatur exercitationem quos ducimus, ut temporibus eos error quasi.</p>
+    <div class="cards">
+      <div>
+        <img src="comp1.jpg"><button>Click</button>
+    </div>
+      <div>
+        <img src="comp2.avif"><button>Click</button>
+    </div>
+      <div>
+        <img src="comp3.webp"><button>Click</button>
+    </div>
+      <div>
+        <img src="comp4.jpg"><button>Click</button>
+    </div>
+
+    </div>
+  </div>
+  <div class="right">Right Panel</div>
+</div>
+</body>
+</html>
